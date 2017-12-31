@@ -1,3 +1,4 @@
+<div>Yeni sayfa oluşturup [area-calc] tag'ını sayfaya yapıştırın.</div>
 <div ng-app="myApp" ng-controller="myCtrl as vm">
 	<form>
 	<table class="form-table-sample" border=1>
@@ -45,9 +46,6 @@
 		<input type="hidden" name="area_calc-two" value='{{vm.minimum|json}}'>
 		<?php submit_button(); ?>
 	</form>
-	
-	<pre>{{vm.settings|json}}</pre>
-	<pre>{{vm.minimum|json}}</pre>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
 <script>
